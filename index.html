@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to stories world!</title>
+</head>
+<body>
+    <nav class="navbar h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo">
+                <a href="index.html"><img src="/images/logo.png" alt="Logo"></a>
+            </div>
+            <li >
+                <a href="index.html">CHILDREN'S</a>
+            </li>
+            <li >
+                <a href="index.html">COMICS</a>
+            </li>
+            <li >
+                <a href="index.html">MYSTERY/THRILLER</a>
+            </li>
+            <li >
+                <a href="index.html">NONFICTION</a>
+            </li>
+            <li >
+                <a href="index.html">ROMANCE</a>
+            </li>
+            <li >
+                <a href="index.html">SCI-FI/FANTASY</a>
+            </li>
+            <li >
+                <a href="index.html">YOUNG ADULT</a>
+            </li>
+        </ul>
+
+        <div class="right-nav v-class-resp">
+            <input type="text" name="search" id="search" placeholder="Search...">
+            <button class="btn btn-sm" onclick="searchBar()" ><img src="https://img.icons8.com/ios-filled/50/000000/search--v1.png" /></button>
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+</nav>
+
+<section class="background first-section">
+    <div class="title">Welcome to the world of Stories.</div>
+    <div class="heading">Trending Stories</div>
+    <div class="box-main" >
+        <div class="row-wise">
+            <img onclick="storiesPage(1)" src="/Stories/College Funeral/1.png" alt="College Funeral">
+            <a onclick="storiesPage(this.id)" id="1">College Funeral</a>
+        </div>
+
+        <div class="row-wise">
+            <img onclick="storiesPage(2)" src="/Stories/Humans can Lick too/1.png" alt="Humans can Lick too">
+            <a onclick="storiesPage(this.id)" id="2">Humans can Lick too</a>
+        </div>
+
+        <div class="row-wise">
+            <img onclick="storiesPage(3)" src="/Stories/Wrong Email Address/1.png" alt="Wrong Email Address">
+            <a onclick="storiesPage(this.id)" id="3">Wrong Email Address</a>
+        </div>
+
+        <div class="row-wise">
+            <img onclick="storiesPage(4)" src="/Stories/Last Night/1.png" alt="Last Night">
+            <a onclick="storiesPage(this.id)" id="4">Last Night</a>
+        </div>
+
+        <div class="row-wise">
+            <img onclick="storiesPage(5)" src="/Stories/Examhall/1.png" alt="Examhall">
+            <a onclick="storiesPage(this.id)" id="5">Examhall</a>
+        </div>
+        
+        <div class="row-wise">
+            <img onclick="storiesPage(6)" src="/Stories/Solo Trip/1.png" alt="Solo Trip">
+            <a onclick="storiesPage(this.id)" id="6">Solo Trip</a>
+        </div>
+    </div>
+
+    <div class="space"></div>
+    <div class="heading">Most Popular Stories</div>
+    <div class="box-main">
+        <div class="row-wise">
+            <img onclick="storiesPage(7)" src="/Stories/Love Story of Two IITians/1.png" alt="Love Story of Two IITians">
+            <a onclick="storiesPage(this.id)" id="7">Love Story of Two IITians</a>
+        </div>
+    
+        <div class="row-wise">
+            <img onclick="storiesPage(8)" src="/Stories/Hey Are you Single/1.png" alt="Hey Are you Single">
+            <a onclick="storiesPage(this.id)" id="8">Hey Are you Single</a>
+        </div>
+    
+        <div class="row-wise">
+            <img onclick="storiesPage(9)" src="/Stories/Strange Partner/1.png" alt="Strange Partner">
+            <a onclick="storiesPage(this.id)" id="9">Strange Partner</a>
+        </div>
+    
+        <div class="row-wise">
+            <img onclick="storiesPage(10)" src="/Stories/Kalank/1.png" alt="Kalank">
+            <a onclick="storiesPage(this.id)" id="10">Kalank</a>
+        </div>
+    
+        <div class="row-wise">
+            <img onclick="storiesPage(11)" src="/Stories/Terror on the Fort Part - 1/1.png" alt="Terror on the Fort Part - 1">
+            <a onclick="storiesPage(this.id)" id="11">Terror on the Fort Part - 1</a>
+        </div>
+    
+        <div class="row-wise">
+            <img onclick="storiesPage(12)" src="/Stories/Trumpets of the Gods/1.png" alt="Trumpets of the Gods">
+            <a onclick="storiesPage(this.id)" id="12">Trumpets of the Gods</a>
+        </div>
+    </div>
+
+        <div class="space"></div>
+        <div class="heading">Feel Good Stories</div>
+        <div class="box-main">
+            <div class="row-wise">
+                <img onclick="storiesPage(13)" src="/Stories/Choti Diwali/1.png" alt="Choti Diwali">
+                <a onclick="storiesPage(this.id)" id="13">Choti Diwali</a>
+            </div>
+        
+            <div class="row-wise">
+                <img onclick="storiesPage(14)" src="/Stories/Gatecrash/1.png" alt="Gatecrash">
+                <a onclick="storiesPage(this.id)" id="14">Gatecrash</a>
+            </div>
+        
+            <div class="row-wise">
+                <img onclick="storiesPage(15)" src="/Stories/Kedarnath - Way to Heaven/1.png" alt="Kedarnath -  Way to Heaven">
+                <a onclick="storiesPage(this.id)" id="15">Kedarnath - Way to Heaven</a>
+            </div>
+        
+            <div class="row-wise">
+                <img onclick="storiesPage(16)" src="/Stories/Yeh No. 1 Yaari Hai/1.png" alt="Yeh No. 1 Yaari Hai">
+                <a onclick="storiesPage(this.id)" id="16">Yeh No. 1 Yaari Hai</a>
+            </div>
+        
+            <div class="row-wise">
+                <img onclick="storiesPage(17)" src="/Stories//Truth or Dare/1.png" alt="Truth or Dare">
+                <a onclick="storiesPage(this.id)" id="17">Truth or Dare</a>
+            </div>
+        
+            <div class="row-wise">
+                <img onclick="storiesPage(18)" src="/Stories/Mystery Girlfriend/1.png" alt="Mystery Girlfriend">
+                <a onclick="storiesPage(this.id)" id="18">Mystery Girlfriend</a>
+            </div>
+        </div>
+
+    <div class="last-section">
+        <div>There's even more to read.</div>
+        <div class="desc">Nmims Stories has an extensive library of amazing stories. Read as much as you want,
+            anytime you want.
+        </div>
+    </div>
+    
+</section>
+<footer class="ftr">
+    <div class="footer">
+        <ul class="ftr-list">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Share Stories</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">&#169Nmims Stories</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
